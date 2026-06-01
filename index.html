@@ -80,6 +80,7 @@
             line-height: 1.5;
             position: relative;
             padding-left: 25px;
+            color: #E5E7EB;
         }
 
         /* Custom cyan bullet points */
@@ -109,6 +110,16 @@
             background: #00bfff;
         }
 
+        .privacy-text {
+            color: #E5E7EB;
+            line-height: 1.6;
+            font-size: 0.95rem;
+        }
+
+        .privacy-text p {
+            margin-bottom: 12px;
+        }
+
         footer {
             margin-top: 20px;
             font-size: 0.85rem;
@@ -118,10 +129,6 @@
 
         footer p {
             margin-bottom: 10px;
-        }
-
-        footer a {
-            color: rgba(255, 255, 255, 0.6);
         }
     </style>
 </head>
@@ -135,28 +142,36 @@
             </div>
         </header>
 
-        <!-- Marketing Section -->
         <section>
             <h2>About the App</h2>
             <ul>
-                <strong>Zero Friction:</strong> No accounts to create. No tedious signups. Open the app and you are ready.
-                <strong>100% Ad-Free:</strong> No annoying popups or video ads interrupting your game night.
-                <strong>The Most Popular Games:</strong> Instant access to clean, simplified rulebooks for 50 of the most popular tabletop and board games.
-                <strong>Instant Search:</strong> Find your game in a single tap with our ultrafast search bar.
-                <strong>Favorites List:</strong> Save your goto games to your favorites for even faster access on your next game night.
+                <li><strong>Zero Friction:</strong> No accounts to create. No tedious signups. Open the app and you are ready.</li>
+                <li><strong>100% Ad-Free:</strong> No annoying popups or video ads interrupting your game night.</li>
+                <li><strong>The Most Popular Games:</strong> Instant access to clean, simplified rulebooks for 50 of the most popular tabletop and board games.</li>
+                <li><strong>Instant Search:</strong> Find your game in a single tap with our ultrafast search bar.</li>
+                <li><strong>Favorites List:</strong> Save your goto games to your favorites for even faster access on your next game night.</li>
             </ul>
         </section>
 
-        <!-- Support Section -->
         <section style="text-align: center;">
             <h2>Support & Feedback</h2>
-            <p style="margin-bottom: 15px; line-height: 1.5;">Need help, found a bug, or want to suggest a board game ruleset we should add next? Drop us a line!</p>
-            <a href="norulesapp@proton.me" class="support-btn">Contact Support</a>
+            <p style="margin-bottom: 15px; line-height: 1.5; color: #E5E7EB;">Need help, found a bug, or want to suggest a board game ruleset we should add next? Drop us a line!</p>
+            <a href="mailto:norulesapp@proton.me" class="support-btn">Contact Support</a>
         </section>
 
-        <!-- Privacy Policy & Rights Section -->
+        <section class="privacy-text">
+            <h2>Privacy Policy</h2>
+            <p><strong>Your Privacy is Absolute.</strong></p>
+            <p>The NoRules? app is built with a zero-data collection philosophy. We believe your board game nights are your own business.</p>
+            <ul>
+                <li><strong>No Accounts:</strong> You do not need to register, log in, or provide an email address to use any features.</li>
+                <li><strong>No Tracking:</strong> We do not track your search history, favorite lists, or location data. Everything stays stored completely offline on your own device.</li>
+                <li><strong>No Third Parties:</strong> Because we collect zero data, nothing is ever shared, sold, or distributed to third-party services or advertisers.</li>
+            </ul>
+            <p style="margin-top: 5px; margin-bottom: 0; font-size: 0.85rem; opacity: 0.7;">Last updated: June 2026</p>
+        </section>
+
         <footer>
-            <p><strong>Privacy Policy:</strong> NoRules? values your privacy. The app does not collect, store, track, or share any personal data, account information, or analytics. It is entirely private to you.</p>
             <p>© 2026 NoRules? All rights reserved.</p>
         </footer>
     </div>
