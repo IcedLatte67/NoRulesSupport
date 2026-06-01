@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoRules? | Board Game Quick Reference Guide</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            /* Deep navy gradient matched from Screenshot 2026-06-01 at 21.50.01.jpg */
+            background: linear-gradient(180deg, #121e2d 0%, #0a101a 100%);
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 650px;
+            width: 100%;
+            text-align: center;
+        }
+
+        header {
+            margin-bottom: 40px;
+        }
+
+        .logo {
+            font-size: 2.5rem;
+            font-weight: 800;
+            /* Bright blue accents matching the app UI */
+            color: #4da3ff;
+            text-shadow: 2px 2px 0px #1d5299;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+
+        /* White speech-bubble style matching the screenshot UI element */
+        .promo-bubble {
+            background-color: #ffffff;
+            color: #121e2d;
+            padding: 20px;
+            border-radius: 30px;
+            font-weight: 500;
+            font-size: 1.1rem;
+            line-height: 1.5;
+            margin: 20px 0 40px 0;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            color: #00bfff; /* Vibrant cyan from the home icon */
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+
+        section {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 30px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+            text-align: left;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            margin-bottom: 15px;
+            line-height: 1.5;
+            position: relative;
+            padding-left: 25px;
+        }
+
+        /* Custom cyan bullet points */
+        li::before {
+            content: "•";
+            color: #00bfff;
+            font-weight: bold;
+            font-size: 1.5rem;
+            position: absolute;
+            left: 0;
+            top: -4px;
+        }
+
+        .support-btn {
+            display: inline-block;
+            background: #4da3ff;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 12px 30px;
+            border-radius: 25px;
+            font-weight: 600;
+            margin-top: 10px;
+            transition: background 0.2s;
+        }
+
+        .support-btn:hover {
+            background: #00bfff;
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 0.85rem;
+            color: rgba(255, 255, 255, 0.4);
+            line-height: 1.6;
+        }
+
+        footer p {
+            margin-bottom: 10px;
+        }
+
+        footer a {
+            color: rgba(255, 255, 255, 0.6);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="logo">NoRules?</div>
+            <div class="promo-bubble">
+                Check the Wiki for rules, save favourites for quick access, and jump into the fun!
+            </div>
+        </header>
+
+        <!-- Marketing Section -->
+        <section>
+            <h2>About the App</h2>
+            <ul>
+                <strong>Zero Friction:</strong> No accounts to create. No tedious signups. Open the app and you are ready.
+                <strong>100% Ad-Free:</strong> No annoying popups or video ads interrupting your game night.
+                <strong>The Most Popular Games:</strong> Instant access to clean, simplified rulebooks for 50 of the most popular tabletop and board games.
+                <strong>Instant Search:</strong> Find your game in a single tap with our ultrafast search bar.
+                <strong>Favorites List:</strong> Save your goto games to your favorites for even faster access on your next game night.
+            </ul>
+        </section>
+
+        <!-- Support Section -->
+        <section style="text-align: center;">
+            <h2>Support & Feedback</h2>
+            <p style="margin-bottom: 15px; line-height: 1.5;">Need help, found a bug, or want to suggest a board game ruleset we should add next? Drop us a line!</p>
+            <a href="norulesapp@proton.me" class="support-btn">Contact Support</a>
+        </section>
+
+        <!-- Privacy Policy & Rights Section -->
+        <footer>
+            <p><strong>Privacy Policy:</strong> NoRules? values your privacy. The app does not collect, store, track, or share any personal data, account information, or analytics. It is entirely private to you.</p>
+            <p>© 2026 NoRules? All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
